@@ -1,4 +1,6 @@
-# Korisnik se cuva u Local storage ako zelite ponovo na login page obrisite userData iz Local storage
-# 
+# KORISNIK SE CUVA U LOCAL STORAGE AKO ZELITE PONOVO NA LOGIN PAGE OBRISITE USERDATA IZ LOCAL STORAGE
+# CART DATA SE NE CUVA POSLE REFRESH-A APLIKACIJE.
+
+# PARAMETRI ZA PRIJAVU:
 user:     test@test.com
 password: test@test.com

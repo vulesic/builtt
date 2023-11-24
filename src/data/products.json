@@ -5,7 +5,7 @@
     "title": "Naturela sa Rogačem i Agava Šećerom",
     "netoWeight": "750 g",
     "discount": 10,
-    "price": 19.99,
+    "price": 190,
     "quantity": 0
   },
   {
@@ -14,7 +14,7 @@
     "title": "Kikriki puter",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 24.99,
+    "price": 240,
     "quantity": 0
   },
   {
@@ -23,7 +23,7 @@
     "title": "Kokosov protein",
     "netoWeight": "750 g",
     "discount": 13,
-    "price": 14.99,
+    "price": 540,
     "quantity": 0
   },
   {
@@ -32,7 +32,7 @@
     "title": "Bar sa lešnikovim puterom",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 29.99,
+    "price": 360,
     "quantity": 0
   },
   {
@@ -41,7 +41,7 @@
     "title": "Zejtin suncokretovo ulje",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 19.99,
+    "price": 238,
     "quantity": 0
   },
   {
@@ -50,7 +50,7 @@
     "title": "Devičansko susamovo tamno ulje",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 24.99,
+    "price": 432,
     "quantity": 0
   },
   {
@@ -59,88 +59,88 @@
     "title": "Bar sa šumskim voćem",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 14.99,
+    "price": 621,
     "quantity": 0
   },
   {
     "id": "10208",
     "imagePath": "/images/products/product_6.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Ulje od kokosa",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 29.99,
+    "price": 321,
     "quantity": 0
   },
   {
     "id": "10209",
     "imagePath": "/images/products/product_2.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Kokosov protein - prah",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 19.99,
+    "price": 430,
     "quantity": 0
   },
   {
     "id": "10210",
     "imagePath": "/images/products/product_3.jpeg",
-    "title": "Kikriki puter",
+    "title": "Kikriki puter slani",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 24.99,
+    "price": 853,
     "quantity": 0
   },
   {
     "id": "10211",
     "imagePath": "/images/products/product_5.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Šumski bar sa voćem",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 14.99,
+    "price": 121,
     "quantity": 0
   },
   {
     "id": "10212",
     "imagePath": "/images/products/product_6.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Naturela sa Rogačem",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 29.99,
+    "price": 234,
     "quantity": 0
   },
   {
     "id": "10213",
     "imagePath": "/images/products/product_5.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Bar sa Rogačem i Agava Šećerom 3",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 19.99,
+    "price": 653,
     "quantity": 0
   },
   {
     "id": "10214",
     "imagePath": "/images/products/product_1.jpeg",
-    "title": "Kikriki puter",
+    "title": "Kikriki puter gusti",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 24.99,
+    "price": 232,
     "quantity": 0
   },
   {
     "id": "10215",
     "imagePath": "/images/products/product_2.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Naturela i Agava",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 14.99,
+    "price": 114,
     "quantity": 0
   },
   {
     "id": "10216",
     "imagePath": "/images/products/product_1.jpeg",
-    "title": "Naturela sa Rogačem i Agava Šećerom",
+    "title": "Sa Agava Šećerom",
     "netoWeight": "750 g",
     "discount": 0,
-    "price": 29.99,
+    "price": 299,
     "quantity": 0
   }
 ]

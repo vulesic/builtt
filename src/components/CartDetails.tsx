@@ -20,7 +20,7 @@ const CartDetails = () => {
   }, [cart]);
 
   return (
-    <div className="CartDetails w-[380px] p-6  bg-[#F0F0F0]">
+    <div className="CartDetails w-full md:w-[380px] p-6  bg-[#F0F0F0]">
       <h3 className="font-bold text-lg mb-7">Tvoja narudžbina</h3>
 
       <div className="flex justify-between mb-3">
@@ -37,7 +37,7 @@ const CartDetails = () => {
         <div className="font-['Arial'] text-base">Ušteda</div>
         <div>
           <div className="flex flex-row">
-            <div className="text-2xl leading-7">{`- ${discount.toFixed(2)}`}</div>
+            <div className="text-2xl leading-7">{`${discount ? '- ' + discount.toFixed(2) : '0'} `}</div>
             <div className="text-xs ml-1">RSD</div>
           </div>
         </div>

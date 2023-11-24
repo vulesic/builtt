@@ -14,7 +14,6 @@ export const userSlice = createSlice({
     loginSuccess: (state, action: PayloadAction<string>) => {
       state.isLoggedIn = true;
       state.user = action.payload;
-      console.log('state.user :>> ', state.user);
       localStorage.setItem('userData', JSON.stringify(state.user));
     },
     logout: (state) => {

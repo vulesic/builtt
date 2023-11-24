@@ -25,8 +25,8 @@ const Cart = () => {
     <div className="Cart container mx-auto py-11">
       <h3 className="font-bold text-xl mb-7">Tvoja korpa</h3>
       {cart && cart.length ? (
-        <div className="flex flex-row justify-between items-start">
-          <div className="grow pr-8">
+        <div className="md:flex md:flex-row md:justify-between md:items-start">
+          <div className="md:pr-8 mb-8 md:mb-8 w-full">
             {cart.map((product, index) => (
               <div key={product.id}>
                 <CartProduct id={product.id} />
