@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AddProductProps, ProductIC, RootState } from "../../lib/interfaces";
+import { ProductIC, RootState } from "../../lib/interfaces";
 import { useDispatch } from "react-redux";
 import Minus from "../../images/minus.svg";
 import Plus from "../../images/plus.svg";

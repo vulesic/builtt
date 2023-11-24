@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import productsData from "../data/products.json";
 import Product from "../components/Product/Product";
 import { useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-import { RootState } from "../lib/interfaces";
 
 const Shop = () => {
   const navigate = useNavigate();

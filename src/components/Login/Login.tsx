@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import TextInput from "./TextInput";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { loginSuccess } from "../store/userSlice";
+import { loginSuccess } from "../../store/userSlice";
+import "./login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -22,7 +23,7 @@ const Login = () => {
 
   const validateEmail = (input: string) => {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const isValid = emailPattern.test(input) && input === 'test@test.com';
+    const isValid = emailPattern.test(input) && input === "test@test.com";
     setIsEmailError(!isValid);
     return isValid;
   };
@@ -35,10 +36,10 @@ const Login = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    validatePassword(password)
+    validatePassword(password);
     if (email && validateEmail(email) && validatePassword(password)) {
       dispatch(loginSuccess(email));
-      navigate('/shop');
+      navigate("/shop");
     }
   };
 
