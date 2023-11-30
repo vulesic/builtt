@@ -46,7 +46,7 @@ const Login = () => {
   return (
     <div className="flex justify-center">
       <form className="flex flex-col w-full sm:w-[300px] md:w-[460px] px-5" onSubmit={handleSubmit}>
-        <h3 className="font-bold text-xl mb-10">Prijavi se na svoj nalog</h3>
+        <h3 className="font-bold text-xl mb-10">Prijavi se na nalog</h3>
         <TextInput
           label="E-mail adresa"
           value={email}
